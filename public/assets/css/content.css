@@ -1,0 +1,17 @@
+.titulo-site-logo-grande {
+    font-size: 32px;
+    font-variant: bold;
+    color: #FFF;
+    margin-left: 60px;
+  }
+
+.titulo-site-logo-pequeno {
+    font-size: 25px;
+    color:#FFF;
+  }
+
+
+.margin-left {
+    margin-left: 70px;
+  }
+
