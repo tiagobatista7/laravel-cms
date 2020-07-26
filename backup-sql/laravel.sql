@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 25-Jul-2020 às 10:28
+-- Tempo de geração: 26-Jul-2020 às 12:10
 -- Versão do servidor: 10.4.13-MariaDB
 -- versão do PHP: 7.4.8
 
@@ -118,8 +118,8 @@ INSERT INTO `settings` (`id`, `name`, `content`) VALUES
 (9, 'instagram', 'https://instagram.com/'),
 (10, 'banner_title', 'Laravel CMS'),
 (11, 'banner_subtitle', 'O seu site totalmente administrável e responsivo.'),
-(12, 'telefone', '(11) 3627-0000'),
-(13, 'whatsapp', '(11) 9.9655-0365'),
+(12, 'telefone', '(11) 0000-0000'),
+(13, 'whatsapp', '(11) 9.0000-0000'),
 (14, 'endereco', 'Edf. Lua, 523 - Av. Paulista - SP');
 
 -- --------------------------------------------------------
@@ -145,8 +145,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `level`) VALUES
-(28, 'Administrador', 'admin@admin.com', NULL, '$2y$10$M.MJJ.xPCx7EQC7Gz2oIEeJPy0I8a/wCnj0IJ/wvBvFlZ/RTJQ9LG', NULL, NULL, NULL, 1),
-(29, 'Usuário', 'usuario@usuario.com', NULL, '$2y$10$bbZOKK715354u6R5xjinWOhWC31d83iiEsD5BOBCNGh/FjxHl6h2.', NULL, NULL, NULL, 0);
+(28, 'Administrador', 'admin@admin.com', NULL, '$2y$10$whrgzorjb04QYtxzW5Psx.mKnj2fI284en90RnveN8wlBsMcwm95y', NULL, NULL, NULL, 1),
+(29, 'Editor', 'editor@editor.com', NULL, '$2y$10$AqIz3OxFCPbLg9uO/JRWau16gl7VJDzvnjXy6DwYt9etTasAkfrUq', NULL, NULL, NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -268,7 +268,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT de tabela `visitors`
